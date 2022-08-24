@@ -1,8 +1,8 @@
 import '../styles/Letters.scss';
 
-function SolutionLetters() {
+function SolutionLetters(props) {
 
-    const renderSolutionLetters = (props) => {
+    const renderSolutionLetters = () => {
         const wordLetters = props.word.split('');
         return wordLetters.map((letter, index) => {
             const exists = props.userLetters.includes(letter.toLocaleLowerCase());
