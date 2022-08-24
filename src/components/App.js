@@ -79,7 +79,9 @@ function App() {
       <Header />
       <main className='main'>
         <section>
-          {/* <SolutionLetters /> */}
+          {/* <SolutionLetters word={word} userLetters={userLetters} /> */}
+          
+
           <div className='error'>
             <h2 className='title'>Letras falladas:</h2>
             <ul className='letters'>{renderErrorLetters()}</ul>

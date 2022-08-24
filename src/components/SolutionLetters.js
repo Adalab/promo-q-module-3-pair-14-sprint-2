@@ -1,3 +1,5 @@
+import '../styles/Letters.scss';
+
 function SolutionLetters() {
 
     const renderSolutionLetters = (props) => {
